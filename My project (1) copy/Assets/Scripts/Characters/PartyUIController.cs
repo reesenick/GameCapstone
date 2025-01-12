@@ -46,8 +46,9 @@ public class PartyUIController : MonoBehaviour
 
         health = healthBar.Q<VisualElement>("Health");
         charName = root.Q<Label>("Name");
-        charName.text = character.name;
+        charName.text = "character.name";
         //health.AddToClassList("s1");
+         
 
         spread = root.Q<VisualElement>("Spread");
         currentHP = root.Q<Label>("CurrentHp");
@@ -138,14 +139,14 @@ public class PartyUIController : MonoBehaviour
     {
         while (!character.isDead)
         {
-            if (frameIndex == 0 ){
-                frames[animationSprites.Length - 1].AddToClassList("Invisible");
-            }
-            else{
-            frames[frameIndex -1].AddToClassList("Invisible");
-            }
-            frames[frameIndex].RemoveFromClassList("Invisible");
-            frameIndex = (frameIndex + 1) % frames.Count;
+            // if (frameIndex == 0 ){
+            //     frames[animationSprites.Length - 1].AddToClassList("Invisible");
+            // }
+            // else{
+            // frames[frameIndex -1].AddToClassList("Invisible");
+            // }
+            // frames[frameIndex].RemoveFromClassList("Invisible");
+            // frameIndex = (frameIndex + 1) % frames.Count;
             yield return new WaitForSeconds(frameDuration); // Adjust the interval as needed
         }
     }

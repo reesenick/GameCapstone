@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -167,7 +164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combatManager: {fileID: 1858013467}
-  combatState: {fileID: 0}
   currentParty:
   - {fileID: 493891223}
   - {fileID: 510916517}
@@ -219,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77d5376249c244a3b7d236615234e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGImage: {fileID: 21300000, guid: 219627fdf56fe4d1cb99415e764e2799, type: 3}
+  BGImage: {fileID: 1311123191806717703, guid: 203cf5921d1d28448ac54b427cadd3fa, type: 3}
   animationSprites:
   - {fileID: 21300000, guid: b0e346a0272b6431f939f0a65606de70, type: 3}
   - {fileID: 21300000, guid: 7ddc66bd1c2954b5dace7657195205e5, type: 3}
@@ -242,6 +238,9 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 236b0329f2bde449ebebd79ac587d03e, type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &305452982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +341,9 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 236b0329f2bde449ebebd79ac587d03e, type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &493891225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77d5376249c244a3b7d236615234e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGImage: {fileID: 21300000, guid: 1fcc7ccfbf48a4d769af819d3d1ed341, type: 3}
+  BGImage: {fileID: 7348016699294695178, guid: 6165da36bdc7ee249b7f3cac38e3d029, type: 3}
   animationSprites:
   - {fileID: 21300000, guid: 455b90b1702c64572a2433a9106a9860, type: 3}
   - {fileID: 21300000, guid: f107eca3fa3ae4eaab35e664ff502076, type: 3}
@@ -411,6 +413,9 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 236b0329f2bde449ebebd79ac587d03e, type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &510916517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77d5376249c244a3b7d236615234e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGImage: {fileID: 21300000, guid: c2aed53d16dd14f83b180be3d743a3e2, type: 3}
+  BGImage: {fileID: -4593102886712976134, guid: b84e1395fbd7a5944816a868770686ed, type: 3}
   animationSprites:
   - {fileID: 21300000, guid: f073be2a85232413a9035043deda3c0c, type: 3}
   - {fileID: 21300000, guid: ee35d1077d6414752916784ea2dad467, type: 3}
@@ -787,7 +792,7 @@ Camera:
   m_GameObject: {fileID: 1483600496}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -899,6 +904,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3944087688577825496, guid: 8542260cde48b46ddbc1102111657548, type: 2}
   m_audioClip: {fileID: 8300000, guid: 69233969950d6435995cbd760a7d1b32, type: 3}
+  m_Resource: {fileID: 8300000, guid: 69233969950d6435995cbd760a7d1b32, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
@@ -1015,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77d5376249c244a3b7d236615234e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGImage: {fileID: 21300000, guid: d403e3896aa714f4eaa0f7468c4c95b8, type: 3}
+  BGImage: {fileID: 1077681432765957833, guid: e37d68c6448c16e41bd3dac7198c7e02, type: 3}
   animationSprites:
   - {fileID: 21300000, guid: 304d6cd7bb76147e3b4bae261b80a5ec, type: 3}
   - {fileID: 21300000, guid: 811c9c8ffbafe4e2bae26dc6db0158d5, type: 3}
@@ -1038,6 +1044,9 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 236b0329f2bde449ebebd79ac587d03e, type: 3}
   m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &1644329568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,6 +1233,9 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 3887d178769aa485da9dcfe7e5869592, type: 3}
   m_SortingOrder: 10
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!114 &1715515008
 MonoBehaviour:
   m_ObjectHideFlags: 0
