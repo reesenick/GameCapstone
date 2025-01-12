@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/StyleSheets/Enemy.uss?fileID=7433441132597879392&amp;guid=d97c7d7ef2e2e49e48499aef03db6d59&amp;type=3#Enemy" />
+    <ui:VisualElement name="Enemy" style="flex-grow: 0; flex-direction: row; background-image: none; width: 500px; height: 600px; flex-shrink: 0; justify-content: center; align-self: center;">
+        <ui:VisualElement name="EnemySprite" style="flex-grow: 1; flex-shrink: 0; width: 520px; height: 500px; align-items: center; background-image: url(&quot;project://database/Assets/Art/Enemies/spoiled%20milk.png?fileID=2800000&amp;guid=0d7761aa7a22e4d639a09b5c7170a321&amp;type=3#spoiled milk&quot;); flex-direction: row; -unity-background-scale-mode: scale-to-fit;" />
+        <ui:ProgressBar value="50" high-value="50" name="EnemyHealth" style="position: absolute; height: -434px; top: 497px; left: 136px; width: 266px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="SelectBox" style="flex-grow: 0; position: absolute; bottom: -60px; flex-shrink: 0; align-self: center; width: 50px; height: 50px;" />
+</ui:UXML>

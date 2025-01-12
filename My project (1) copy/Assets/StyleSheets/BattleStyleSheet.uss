@@ -1,0 +1,123 @@
+.Card {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+
+.Card2 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 720px;
+    left: 180px;
+}
+
+.Card3 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 740px;
+    left: 160px;
+}
+
+.Card4 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 760px;
+    left: 140px;
+}
+
+.CardSpread2 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 700px;
+    left: 1060px;
+}
+
+.CardSpread1 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 700px;
+    left: 1460px;
+}
+
+.CardSpread3 {
+    flex-grow: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 700px;
+    left: 660px;
+}
+
+.CardSpread4 {
+    position: absolute;
+    top: 699px;
+    left: 260px;
+    width: 200px;
+    height: 300px;
+}
+
+.BGEffect1 {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Art/UI/Untitled_Artwork%202.png?fileID=2800000&guid=61fc41020ea6d46cd9cb82d2f3f2de7d&type=3#Untitled_Artwork 2");
+}
+
+.BGEffect2 {
+    transition-property: opacity;
+    transition-duration: 5s;
+    opacity: 0;
+}
+
+.MoveDown {
+    translate: 0 1000px;
+    transition-duration: 0.3s;
+}
+
+.ShrinkBox {
+    scale: 0.6 1;
+}
+
+.BigBox {
+    width: 1250px;
+    left: 450px;
+}
+
+.EnlargeBox {
+    width: 1250px;
+}
+
+.unity-text-element {
+}
+
+.unity-label {
+}
+
+.highlight {
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(255, 0, 145);
+}
+
+.selectText {
+    color: rgb(221, 80, 132);
+    -unity-text-outline-color: rgb(154, 21, 72);
+    -unity-text-outline-width: 3px;
+}

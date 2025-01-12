@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b40ba0766a61840bba906572ec9a300b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerCharacter: {instanceID: 0}
+  - enemyCharacter: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

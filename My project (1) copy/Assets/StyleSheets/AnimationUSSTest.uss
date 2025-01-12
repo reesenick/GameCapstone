@@ -1,0 +1,48 @@
+.s1 {
+    width: 100px;
+}
+
+.frame1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-image: url("project://database/Assets/Art/Placeholder/IMG_0067.PNG?fileID=21300000&guid=a2386e33587e34ee89e5fc7965f92d5d&type=3#IMG_0067");
+    width: 200px;
+    height: 300px;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+}
+
+.frame2 {
+    background-image: url("project://database/Assets/Art/Placeholder/IMG_0068.PNG?fileID=21300000&guid=6794c9b03b3594a84a7264061737ea19&type=3#IMG_0068");
+    flex-shrink: 0;
+}
+
+.Visible {
+    visibility: visible;
+}
+
+.Invisible {
+    visibility: hidden;
+}
+
+.text {
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Art/Fonts/kindergarten.ttf?fileID=12800000&guid=b5238b685d06646e0b03eb84dead712e&type=3#kindergarten");
+    height: 30px;
+    width: 23px;
+}
+
+.MoveDown {
+    transition-duration: 0.3s;
+    translate: 0 1000px;
+}
+
+.dead {
+    -unity-background-image-tint-color: rgba(36, 23, 28, 0.69);
+}
